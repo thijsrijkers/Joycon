@@ -1,0 +1,9 @@
+D:\Joycon\bin\x86\Debug\JoyCon.exe.config
+D:\Joycon\bin\x86\Debug\JoyCon.exe
+D:\Joycon\bin\x86\Debug\JoyCon.pdb
+D:\Joycon\src\obj\x86\Debug\JoyConForm.MainForm.resources
+D:\Joycon\src\obj\x86\Debug\JoyCon.Properties.Resources.resources
+D:\Joycon\src\obj\x86\Debug\Joycon.csproj.GenerateResource.cache
+D:\Joycon\src\obj\x86\Debug\Joycon.csproj.CoreCompileInputs.cache
+D:\Joycon\src\obj\x86\Debug\JoyCon.exe
+D:\Joycon\src\obj\x86\Debug\JoyCon.pdb
