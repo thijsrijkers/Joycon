@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.buttonScan = new System.Windows.Forms.Button();
-            this.buttonStart = new System.Windows.Forms.Button();
             this.timerUpdate = new System.Windows.Forms.Timer(this.components);
             this.picture1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picture1)).BeginInit();
@@ -45,15 +44,6 @@
             this.buttonScan.Name = "buttonScan";
             this.buttonScan.UseVisualStyleBackColor = false;
             this.buttonScan.Click += new System.EventHandler(this.buttonScan_Click);
-            // 
-            // buttonStart
-            // 
-            resources.ApplyResources(this.buttonStart, "buttonStart");
-            this.buttonStart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buttonStart.ForeColor = System.Drawing.Color.White;
-            this.buttonStart.Name = "buttonStart";
-            this.buttonStart.UseVisualStyleBackColor = false;
-            this.buttonStart.Click += new System.EventHandler(this.buttonStart_Click);
             // 
             // timerUpdate
             // 
@@ -73,7 +63,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Controls.Add(this.picture1);
-            this.Controls.Add(this.buttonStart);
             this.Controls.Add(this.buttonScan);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "MainForm";
@@ -86,7 +75,6 @@
 		#endregion
 
 		private System.Windows.Forms.Button buttonScan;
-		private System.Windows.Forms.Button buttonStart;
 		private System.Windows.Forms.Timer timerUpdate;
 		private System.Windows.Forms.PictureBox picture1;
     }

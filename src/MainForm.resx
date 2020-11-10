@@ -120,15 +120,15 @@
   <data name="&gt;&gt;buttonScan.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>JoyCon</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>780, 423</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
-  </data>
-  <data name="&gt;&gt;timerUpdate.Name" xml:space="preserve">
-    <value>timerUpdate</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="buttonScan.TabIndex" type="System.Int32, mscorlib">
@@ -3085,11 +3085,11 @@
   <data name="buttonScan.Text" xml:space="preserve">
     <value>Scan</value>
   </data>
-  <data name="&gt;&gt;timerUpdate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;buttonStart.Name" xml:space="preserve">
     <value>buttonStart</value>
+  </data>
+  <data name="&gt;&gt;picture1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3109,9 +3109,6 @@
   <data name="buttonStart.Location" type="System.Drawing.Point, System.Drawing">
     <value>534, 123</value>
   </data>
-  <data name="&gt;&gt;picture1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="buttonScan.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>TextAboveImage</value>
@@ -3123,7 +3120,10 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonScan.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
+  </data>
+  <data name="picture1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 82</value>
   </data>
   <data name="picture1.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -3146,26 +3146,26 @@
   <data name="buttonScan.Location" type="System.Drawing.Point, System.Drawing">
     <value>534, 82</value>
   </data>
-  <data name="&gt;&gt;picture1.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;timerUpdate.Name" xml:space="preserve">
+    <value>timerUpdate</value>
   </data>
-  <data name="picture1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>236, 82</value>
+  <data name="&gt;&gt;picture1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;picture1.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>JoyCon</value>
+  <data name="&gt;&gt;timerUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="buttonStart.Text" xml:space="preserve">
     <value>Start polling</value>
   </data>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>ccp-Cakm-IN</value>
-  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ccp-Cakm-IN</value>
   </metadata>
   <metadata name="timerUpdate.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
