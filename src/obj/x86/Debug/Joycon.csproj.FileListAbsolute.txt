@@ -11,3 +11,6 @@ D:\Joycon\bin\x86\Debug\ccp-Cakm-IN\JoyCon.resources.dll
 D:\Joycon\src\obj\x86\Debug\Joycon.csprojAssemblyReference.cache
 D:\Joycon\src\obj\x86\Debug\JoyConForm.MainForm.ccp-Cakm-IN.resources
 D:\Joycon\src\obj\x86\Debug\ccp-Cakm-IN\JoyCon.resources.dll
+D:\Joycon\bin\x86\Debug\da\JoyCon.resources.dll
+D:\Joycon\src\obj\x86\Debug\JoyConForm.MainForm.da.resources
+D:\Joycon\src\obj\x86\Debug\da\JoyCon.resources.dll

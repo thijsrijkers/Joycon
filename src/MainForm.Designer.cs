@@ -33,14 +33,15 @@
             this.buttonScan = new System.Windows.Forms.Button();
             this.timerUpdate = new System.Windows.Forms.Timer(this.components);
             this.picture1 = new System.Windows.Forms.PictureBox();
+            this.buttonMouseTrack = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picture1)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonScan
             // 
-            resources.ApplyResources(this.buttonScan, "buttonScan");
             this.buttonScan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.buttonScan.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.buttonScan, "buttonScan");
             this.buttonScan.Name = "buttonScan";
             this.buttonScan.UseVisualStyleBackColor = false;
             this.buttonScan.Click += new System.EventHandler(this.buttonScan_Click);
@@ -52,16 +53,26 @@
             // 
             // picture1
             // 
-            resources.ApplyResources(this.picture1, "picture1");
             this.picture1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.picture1, "picture1");
             this.picture1.Name = "picture1";
             this.picture1.TabStop = false;
+            // 
+            // buttonMouseTrack
+            // 
+            this.buttonMouseTrack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.buttonMouseTrack.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.buttonMouseTrack, "buttonMouseTrack");
+            this.buttonMouseTrack.Name = "buttonMouseTrack";
+            this.buttonMouseTrack.UseVisualStyleBackColor = false;
+            this.buttonMouseTrack.Click += new System.EventHandler(this.buttonMouseTrack_Click_1);
             // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Controls.Add(this.buttonMouseTrack);
             this.Controls.Add(this.picture1);
             this.Controls.Add(this.buttonScan);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -77,6 +88,7 @@
 		private System.Windows.Forms.Button buttonScan;
 		private System.Windows.Forms.Timer timerUpdate;
 		private System.Windows.Forms.PictureBox picture1;
+        private System.Windows.Forms.Button buttonMouseTrack;
     }
 }
 
